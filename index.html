@@ -23,22 +23,21 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Lexend:wght@300&family=Open+Sans&family=Poppins:wght@300;400&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap"
       rel="stylesheet"
     />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
-      rel="stylesheet"
-    />
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
   </head>
 
   <body>
-    <div class="font-bold bg-slate-200 grid place-content-center py-6">
+    <div class="font-semibold bg-slate-200 grid place-content-center py-6">
       <div>
-        <div class="pb-6 text-3xl text-[#000808]">
-          <h1>Dashboard</h1>
+        <div class="pb-6 text-3xl text-[#000808] flex items-center">
+          <img src="./images/favicon.png" width="60" />
+          <div class="pl-4">
+            <h1 class="font-bold text-3xl">Production Department</h1>
+            <h2 class="text-xl font-semibold">Dashboard</h2>
+          </div>
         </div>
         <div
           class="grid grid-flow-col justify-stretch place-content-center text-center gap-2"
@@ -173,12 +172,12 @@
           </div>
         </div>
       </div>
-      <h2 class="mt-8 mb-4 text-xl">Per Team Trackers</h2>
+      <h2 class="mt-8 mb-4 text-xl">Team Trackers</h2>
       <div
         class="grid place-content-center justify-stretch grid-flow-col gap-2 text-sm"
       >
         <div class="bg-[#a5c5ce] p-4 rounded">
-          <h2 class="m-0 pb-4 text-center text-base">Team RC</h2>
+          <h2 class="m-0 pb-4 text-center text-base font-bold">Team RC</h2>
           <a
             href="https://docs.google.com/spreadsheets/d/156u5gOVN5oFdlzWTr5WMArwmtuV6vff5_nCscbiKx0Y/edit?usp=sharing"
             target="_blank"
@@ -199,7 +198,7 @@
           /></a>
         </div>
         <div class="bg-[#a5c5ce] p-4 rounded">
-          <h2 class="m-0 pb-4 text-center text-base text-[#000808]">
+          <h2 class="m-0 pb-4 text-center text-base text-[#000808] font-bold">
             The A Team
           </h2>
           <a
@@ -222,7 +221,7 @@
           /></a>
         </div>
         <div class="bg-[#a5c5ce] p-4 rounded">
-          <h2 class="m-0 pb-4 text-center text-base text-[#000808]">
+          <h2 class="m-0 pb-4 text-center text-base text-[#000808] font-bold">
             Team Beta
           </h2>
           <a
@@ -245,7 +244,7 @@
           /></a>
         </div>
         <div class="bg-[#a5c5ce] p-4 rounded">
-          <h2 class="m-0 pb-4 text-center text-base text-[#000808]">
+          <h2 class="m-0 pb-4 text-center text-base text-[#000808] font-bold">
             Team Delta
           </h2>
           <a
@@ -268,7 +267,7 @@
           /></a>
         </div>
         <div class="bg-[#a5c5ce] p-4 rounded">
-          <h2 class="m-0 pb-4 text-center text-base text-[#000808]">
+          <h2 class="m-0 pb-4 text-center text-base text-[#000808] font-bold">
             Team Zeta
           </h2>
           <a
@@ -502,19 +501,61 @@
         </div>
       </div>
 
-      <h2 class="mt-8 mb-4 text-xl">Production Department</h2>
+      <h2 class="mt-8 mb-4 text-xl">Production Management Team</h2>
+      <div class="bg-white p-4 rounded mb-4">
+        <div class="flex justify-center items-center py-2">
+          <img src="./images/marvin.png" width="100" class="mr-4" />
+          <div>
+            <p class="text-base font-bold">Marvin Baja</p>
+            <p class="text-sm font-medium">
+              <i class="fa-solid fa-envelope pr-3"></i>rwdsmarvinbaja@gmail.com
+            </p>
+            <p class="text-base font-bold">
+              <i class="fa-solid fa-user pr-3"></i>Production Director
+            </p>
+          </div>
+        </div>
+        <div class="flex justify-around">
+          <div class="flex content-center items-center py-2">
+            <img src="./images/loren.png" width="100" class="mr-4" />
+            <div>
+              <p class="text-base font-bold">Loren Peralta</p>
+              <p class="text-sm font-medium">
+                <i class="fa-solid fa-envelope pr-3"></i
+                >lorenperalta.rwds@gmail.com
+              </p>
+              <p class="text-base font-bold">
+                <i class="fa-solid fa-user pr-3"></i>Production Supervisor
+              </p>
+            </div>
+          </div>
+          <div class="flex content-center items-center py-2">
+            <img src="./images/roz.png" width="100" class="mr-4" />
+            <div>
+              <p class="text-base font-bold">Roz Razo</p>
+              <p class="text-sm font-medium">
+                <i class="fa-solid fa-envelope pr-3"></i
+                >roz@rockstarwebdesignsercices.com
+              </p>
+              <p class="text-bold font-bold">
+                <i class="fa-solid fa-user pr-3"></i>Production Supervisor
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
       <div class="grid grid-flow-col justify-stretch gap-4">
         <div class="bg-white p-4 rounded">
           <h2 class="my-2 text-xl text-center">Project Managers</h2>
           <div class="flex content-center items-center py-2">
             <img src="./images/jiejay.png" width="100" class="m-0" />
             <div>
-              <p class="text-base">Jiejay Peralta</p>
+              <p class="text-base font-bold">Jiejay Peralta</p>
               <p class="text-sm font-medium">
                 <i class="fa-solid fa-envelope pr-3"></i
                 >jiejay@rockstarwebdesignservices.com
               </p>
-              <p class="text-sm font-medium">
+              <p class="text-sm font-bold">
                 <i class="fa-solid fa-users pr-2"></i>Team RC
               </p>
             </div>
@@ -522,11 +563,11 @@
           <div class="flex content-center items-center py-2">
             <img src="./images/jan.png" width="100" class="m-0" />
             <div>
-              <p class="text-base">Jannriel Aggabao</p>
+              <p class="text-base font-bold">Jannriel Aggabao</p>
               <p class="text-sm font-medium">
                 <i class="fa-solid fa-envelope pr-3"></i>Treighgavin@gmail.com
               </p>
-              <p class="text-sm font-medium">
+              <p class="text-sm font-bold">
                 <i class="fa-solid fa-users pr-2"></i>The A Team
               </p>
             </div>
@@ -534,12 +575,12 @@
           <div class="flex content-center items-center py-2">
             <img src="./images/faye.png" width="100" class="m-0" />
             <div>
-              <p class="text-base">Pomarie Faye Atalip</p>
+              <p class="text-base font-bold">Pomarie Faye Atalip</p>
               <p class="text-sm font-medium">
                 <i class="fa-solid fa-envelope pr-3"></i
                 >faye@rockstarwebdesignservices.com
               </p>
-              <p class="text-sm font-medium">
+              <p class="text-sm font-bold">
                 <i class="fa-solid fa-users pr-2"></i>Team Beta
               </p>
             </div>
@@ -547,12 +588,12 @@
           <div class="flex content-center items-center py-2">
             <img src="./images/mccoy.png" width="100" class="m-0" />
             <div>
-              <p class="text-base">Paul McCoy Araneta</p>
+              <p class="text-base font-bold">Paul McCoy Araneta</p>
               <p class="text-sm font-medium">
                 <i class="fa-solid fa-envelope pr-3"></i
                 >rwds.mccoyaraneta@gmail.com
               </p>
-              <p class="text-sm font-medium">
+              <p class="text-sm font-bold">
                 <i class="fa-solid fa-users pr-2"></i>Team Delta
               </p>
             </div>
@@ -560,12 +601,12 @@
           <div class="flex content-center items-center py-2">
             <img src="./images/zhander.png" width="100" class="m-0" />
             <div>
-              <p class="text-base">Zhander Serquina</p>
+              <p class="text-base font-bold">Zhander Serquina</p>
               <p class="text-sm font-medium">
                 <i class="fa-solid fa-envelope pr-3"></i
                 >zhanderserquina25@gmail.com
               </p>
-              <p class="text-sm font-medium">
+              <p class="text-sm font-bold">
                 <i class="fa-solid fa-users pr-2"></i>Team Zeta
               </p>
             </div>
@@ -576,12 +617,12 @@
           <div class="flex content-center items-center py-2">
             <img src="./images/randy.png" width="100" class="m-0" />
             <div>
-              <p class="text-base">Randy Sales</p>
+              <p class="text-base font-bold">Randy Sales</p>
               <p class="text-sm font-medium">
                 <i class="fa-solid fa-envelope pr-3"></i
                 >randyjuliansales02@gmail.com
               </p>
-              <p class="text-sm font-medium">
+              <p class="text-sm font-bold">
                 <i class="fa-solid fa-users pr-2"></i>Team RC
               </p>
             </div>
@@ -589,11 +630,11 @@
           <div class="flex content-center items-center py-2">
             <img src="./images/milky.png" width="100" class="m-0" />
             <div>
-              <p class="text-base">Milky Acosta</p>
+              <p class="text-base font-bold">Milky Acosta</p>
               <p class="text-sm font-medium">
                 <i class="fa-solid fa-envelope pr-3"></i>mmacostarwds@gmail.com
               </p>
-              <p class="text-sm font-medium">
+              <p class="text-sm font-bold">
                 <i class="fa-solid fa-users pr-2"></i>The A Team
               </p>
             </div>
@@ -601,11 +642,11 @@
           <div class="flex content-center items-center py-2">
             <img src="./images/migs.png" width="100" class="m-0" />
             <div>
-              <p class="text-base">Migs Junio</p>
+              <p class="text-base font-bold">Migs Junio</p>
               <p class="text-sm font-medium">
                 <i class="fa-solid fa-envelope pr-3"></i>migsicecream@gmail.com
               </p>
-              <p class="text-sm font-medium">
+              <p class="text-sm font-bold">
                 <i class="fa-solid fa-users pr-2"></i>Team Beta
               </p>
             </div>
@@ -613,12 +654,12 @@
           <div class="flex content-center items-center py-2">
             <img src="./images/keen.png" width="100" class="m-0" />
             <div>
-              <p class="text-base">Keen Barte</p>
+              <p class="text-base font-bold">Keen Barte</p>
               <p class="text-sm font-medium">
                 <i class="fa-solid fa-envelope pr-3"></i
                 >rwds.keenbarte@gmail.com
               </p>
-              <p class="text-sm font-medium">
+              <p class="text-sm font-bold">
                 <i class="fa-solid fa-users pr-2"></i>Team Delta
               </p>
             </div>
